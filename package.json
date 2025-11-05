@@ -1,5 +1,5 @@
 {
-  "homepage": "https://austine299.github.io/inktech",
+  "homepage": "https://austine299.github.io/richfitstore",
   "name": "richfitstore",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +21,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +44,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.18"
   }
