@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/richfitstore/static/css/main.64cf28a4.css",
-    "main.js": "/richfitstore/static/js/main.dcc80232.js",
+    "main.js": "/richfitstore/static/js/main.368ad2fa.js",
     "index.html": "/richfitstore/index.html",
     "main.64cf28a4.css.map": "/richfitstore/static/css/main.64cf28a4.css.map",
-    "main.dcc80232.js.map": "/richfitstore/static/js/main.dcc80232.js.map"
+    "main.368ad2fa.js.map": "/richfitstore/static/js/main.368ad2fa.js.map"
   },
   "entrypoints": [
     "static/css/main.64cf28a4.css",
-    "static/js/main.dcc80232.js"
+    "static/js/main.368ad2fa.js"
   ]
 }
