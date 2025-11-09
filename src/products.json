@@ -1,68 +1,77 @@
 [
     {
+        "id": 1,
         "name": "BEANIE BLACK (Head Warmer)",
         "price": 19000,
-        "descriotion": "Stay warm, stay working. The Richfits Beanie keeps your hustle sharp even in the cold.",
-        "image": "../images/img8.jpg",
-        "image1": "../images/img15.jpg",
-        "image2": "../images/wh1.jpg"
+        "description": "Stay warm, stay working. The Richfits Beanie keeps your hustle sharp even in the cold.",
+        "image": "images/img8.jpg",
+        "image1": "images/img15.jpg",
+        "image2": "images/wh1.jpg"
     },
     {
+        "id": 2,
         "name": "SKULL CAP MOCKUP",
         "price": 10000,
-        "descriotion": "Classic snapback reimagined with Richfits energy. Pressure on, style unmatched.",
-        "image": "../images/img28.png",
-        "image1": "../images/img29.jpg",
-        "image2": "../images/img30.jpg"
+        "description": "Classic snapback reimagined with Richfits energy. Pressure on, style unmatched.",
+        "image": "images/img29.jpg",
+        "image1": "images/img30.jpg",
+        "image2": "images/img28.png"
 
 
     },
     {
+        "id": 3,
         "name": "TRUCKER CAP PRE$ $URE",
         "price": 25000,
-        "descriotion": "Classic snapback reimagined with Richfits energy. Pressure on, style unmatched.",
-        "image": "../images/img13.jpg",
-        "image1": "../images/img14.jpg",
-        "image2": "../images/img25.jpg"
+        "description": "Classic snapback reimagined with Richfits energy. Pressure on, style unmatched.",
+        "image": "images/img13.jpg",
+        "image1": "images/img14.jpg",
+        "image2": "images/img25.jpg"
     },
     {
+        "id": 4,
         "name": "RICHFITS BLUE & BLACK JERSEY",
         "price": 40000,
-        "descriotion": "Sport meets street. This bold blue & black jersey reps strength, speed, and grind.",
-        "image": "../images/img4.jpg",
-        "image1": "../images/img5 .jpg",
-        "image2": "../images/img27.jpg"
+        "description": "Sport meets street. This bold blue & black jersey reps strength, speed, and grind.",
+        "image": "images/img4.jpg",
+        "image1": "images/img27.jpg",
+        "image2": "images/img27.jpg"
     },
     {
+        "id": 5,
         "name": "RICHFITS GOLD & BLACK JERSEY",
         "price": 40000,
-        "descriotion": "Bold like gold, sharp like hustle. The ultimate jersey for those built for greatness.",
-        "image": "../images/img6.jpg",
-        "image1": "../images/img7.jpg",
-        "image2": "../images/img6.jpg"
+        "description": "Bold like gold, sharp like hustle. The ultimate jersey for those built for greatness.",
+        "image": "images/img6.jpg",
+        "image1": "images/img7.jpg",
+        "image2": "images/img6.jpg"
     },
     {
+        "id": 6,
         "name": "SLEEVELESS TEE (Stone Wash)",
         "price": 55000,
-        "descriotion": " Raw edge. Heavy drip. A stone-wash finish for hustlers who move different.",
-        "image": "../images/img26.jpg",
-        "image1": "../images/img16.jpg",
-        "image2": "../images/img26.jpg"
+        "description": " Raw edge. Heavy drip. A stone-wash finish for hustlers who move different.",
+        "image": "images/img26.jpg",
+        "image1": "videoimg/wh6.jpg",
+        "image2": "images/img26.jpg"
     },
     {
+        "id": 7,
         "name": "WHITE TEE  PRESSURE BUILT ME",
         "price": 60000,
-        "descriotion": " Clean, crisp, and powerful. The white tee that speaks volumes: Pressure made you.",
-        "image": "../images/img12.jpg",
-        "image1": "videoimg/wh13.jpg",
-        "image2": "../images/img12.jpg"
+        "description": " Clean, crisp, and powerful. The white tee that speaks volumes: Pressure made you.",
+        "image": "images/img12.jpg",
+        "image1": "images/img26.jpg",
+        "image2": "videoimg/wh13.jpg"
     },
     {
+        "id": 8,
         "name": "SKI MASK-BLACK",
         "price": 25000,
-        "descriotion": "Lowkey grind, loud message. Built for hustlers who move in silence but shine in results.",
-        "image": "../images/img3.jpg",
-        "image1": "videoimg/wh17.jpg",
-        "image2": "videoimg/wh14.jpg"
+        "description": "Lowkey grind, loud message. Built for hustlers who move in silence but shine in results.",
+        
+        "image": "images/img3.jpg",
+        "image1": "videoimg/wh14.jpg",
+        "image2": "videoimg/wh17.jpg"
     }
 ]

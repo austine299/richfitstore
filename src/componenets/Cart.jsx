@@ -31,7 +31,7 @@ function CartPage() {
                 >
                   <div className="flex items-center gap-3 w-[50%]">
                     <img
-                      src={`${process.env.PUBLIC_URL}/${item.image}`}
+                      src={`${item.image}`}
                       alt={item.name}
                       className="w-16 h-16 object-cover rounded"
                     />

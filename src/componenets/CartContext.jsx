@@ -5,6 +5,7 @@ export const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
+    const [added, setAdded] = useState(false);
 
   // Load cart from localStorage on mount
   useEffect(() => {
@@ -67,7 +68,7 @@ const totalPrice = cart.reduce((acc, item) => {
 
 
   return (
-    <CartContext.Provider value={{ getItemTotal, cart, addToCart, decreaseQuantity, removeFromCart, totalPrice }}>
+    <CartContext.Provider value={{added, setAdded, getItemTotal, cart, addToCart, decreaseQuantity, removeFromCart, totalPrice }}>
       {children}
     </CartContext.Provider>
   );

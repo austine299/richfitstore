@@ -31,7 +31,9 @@ function Shop() {
       <div className="flex flex-wrap md:flex-row   gap-5 w-full justify-center md:justify-start">
         {products.map((product) => (
           <ItemsCard
+          id={product.id}
             image={`${process.env.PUBLIC_URL}/${product.image}`}
+            image1={`${process.env.PUBLIC_URL}/${product.image1}`}
             name={product.name}
             price={product.price}
             onAddToCart={handleAddToCart}
