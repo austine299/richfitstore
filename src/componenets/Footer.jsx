@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaWhatsapp, FaCopyright, FaFacebook, FaTiktok, FaYoutube, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaSnapchat } from 'react-icons/fa6';
 
 
 function Footer() {
@@ -24,14 +25,16 @@ function Footer() {
         <div className="flex flex-col gap-3">
           <h4 className="text-2xl font-bold">FOLLOW US</h4>
           <div className="flex gap-5">
-            <a href=''><i className="text-3xl"><FaWhatsapp/></i></a>
+            <a href={`https://wa.me/${process.env.REACT_APP_WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer"><FaWhatsapp className="text-3xl" /></a>
             <a href='https://www.instagram.com/richfitstore.ng?igsh=NG5wYTc1c2V1MHBs&utm_source=qr'><i className="text-3xl"><FaInstagram/></i></a>
             <a href='https://www.tiktok.com/@richfitstore?_r=1&_d=emi31abiechk1f&sec_uid=MS4wLjABAAAApMHBRCaSCsNkl8fkCKJXvU3St80qBObhD94kLqy6xcWAudpQCBJKYPkPsxHxLi22&share_author_id=7447142546512200710&sharer_language=en&source=h5_m&u_code=ehimcgb62mb131&item_author_type=1&utm_source=copy&tt_from=copy&enable_checksum=1&utm_medium=ios&share_link_id=81CC8B1F-2D75-4966-AB1B-8B58AF375B43&user_id=7447142546512200710&sec_user_id=MS4wLjABAAAApMHBRCaSCsNkl8fkCKJXvU3St80qBObhD94kLqy6xcWAudpQCBJKYPkPsxHxLi22&social_share_type=4&ug_btm=b8727,b0&utm_campaign=client_share&share_app_id=1233'><i className="text-3xl"><FaTiktok/></i></a>
-            <a href=''><i className="text-3xl"><FaYoutube/></i></a>
-            <a href=''><i className="text-3xl"><FaFacebook/></i></a>
+            <a href='https://www.snapchat.com/add/richfitstore?share_id=f_SZ5DJNSTyXUZxWDlm7aw&locale=en_NG'><i className="text-3xl"><FaSnapchat/></i></a>
+            <a href="https://facebook.com/richfitstore" target="_blank" rel="noopener noreferrer"><FaFacebook className="text-3xl" /></a>
             <a href='https://x.com/richfitstore?s=21'><i className='text-3xl'><FaTwitter/></i></a>
           </div>
         </div>
+        
+
 
         <div className="copyright" >
           <p className="flex items-center text-xl">

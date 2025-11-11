@@ -32,7 +32,7 @@ function Gallery() {
           key={index}
           image={`${process.env.PUBLIC_URL}/${photo.image}`}
 
-          alt={`Gallery image ${index}`}
+          alt={`Gallery ${index}`}
           onClick={() => handleImageClick(index)}
         />
       ))}
@@ -54,10 +54,9 @@ function Gallery() {
             &#10094;
           </button>
 
-          {/* ✅ Corrected image path */}
           <img
             src={`${process.env.PUBLIC_URL}/${photos[selectedIndex].image}`}
-            alt={`Gallery image ${selectedIndex}`}
+            alt={`Gallery ${selectedIndex}`}
             className="max-w-[80%] max-h-[80%]"
           />
 
