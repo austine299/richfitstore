@@ -11,7 +11,7 @@ function Navbar() {
     <section className="fixed bg-white pl-6 pr-6 md:pl-20 md:pr-20 pt-6 pb-6 w-full shadow-md z-50">
       <div className="flex justify-between items-center">
         <Link to="/">
-          <img src="images/img21.jpg" alt="logo" className="w-[120px] h-[60px] object-cover" />
+          <img src={`${process.env.PUBLIC_URL}/images/img21.jpg`} alt="logo" className="w-[120px] h-[60px] object-cover" />
         </Link>
 
         {/* Desktop Menu */}
