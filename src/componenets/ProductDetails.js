@@ -54,6 +54,42 @@ function ProductDetails() {
             <p className="text-xl text-gray-600 mb-4">{product.description}</p>
           </div>
           <div>
+            <span className="text-2xl font-extrabold">Availability</span>
+            <div className="flex gap-7">
+              <div className="flex flex-col gap-3">
+                <span className="text-xl font-semibold">Colors</span>
+                <div className="flex flex-col gap-1 mb-3">
+                  <span className="text-xs hover:text-red-800 font-semibold cursor-pointer text-gray-600">
+                    {product.color.color1}
+                  </span>
+                  <span className="text-xs hover:text-red-800 font-semibold  cursor-pointer text-gray-600">
+                    {product.color.color2}
+                  </span>
+                </div>
+              </div>
+              <div className="flex flex-col gap-3">
+                <span className="text-xl font-semibold">Sizes</span>
+                <div className="flex gap-5 mb-3">
+                  <span className="text-xs hover:text-red-800 font-semibold cursor-pointer text-gray-600">
+                    {product.sizes.s}
+                  </span>
+                  <span className="text-xs hover:text-red-800 font-semibold  cursor-pointer text-gray-600">
+                    {product.sizes.m}
+                  </span>
+                  <span className="text-xs hover:text-red-800 font-semibold cursor-pointer text-gray-600">
+                    {product.sizes.l}
+                  </span>
+                  <span className="text-xs hover:text-red-800 font-semibold cursor-pointer text-gray-600">
+                    {product.sizes.xl}
+                  </span>
+                  <span className="text-xs hover:text-red-800 font-semibold  cursor-pointer text-gray-600">
+                    {product.sizes.xxl}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
             <span className="text-2xl font-extrabold">Price</span>
             <p className="text-xl text-gray-600 mb-4">₦{product.price}</p>
           </div>
