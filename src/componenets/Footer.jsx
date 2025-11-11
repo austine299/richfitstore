@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaWhatsapp, FaCopyright, FaFacebook, FaTiktok, FaYoutube, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaWhatsapp, FaCopyright, FaFacebook, FaTiktok, FaInstagram, FaTwitter } from "react-icons/fa";
 import { FaSnapchat } from 'react-icons/fa6';
 
 
