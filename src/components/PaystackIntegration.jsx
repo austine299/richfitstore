@@ -72,7 +72,7 @@ export default function CheckoutAndPay() {
             units: qtyNum,
             price: priceNum.toFixed(2),
             line_total: (priceNum * qtyNum).toFixed(2),
-            image: item.image || "",
+            image:  `${window.location.origin}/${item.image}` || "",
           };
         });
 
