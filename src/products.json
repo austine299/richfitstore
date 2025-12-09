@@ -64,7 +64,7 @@
   {
     "id": 4,
     "name": "RICHFITS BLUE & BLACK JERSEY",
-    "price": 40000,
+    "price": 50000,
     "description": "Sport meets street. This bold blue & black jersey reps strength, speed, and grind.",
     "image": "images/img4.jpg",
     "image1": "images/img27.jpg",
@@ -84,7 +84,7 @@
   {
     "id": 5,
     "name": "RICHFITS GOLD & BLACK JERSEY",
-    "price": 40000,
+    "price": 50000,
     "description": "Bold like gold, sharp like hustle. The ultimate jersey for those built for greatness.",
     "image": "images/img6.jpg",
     "image1": "images/img7.jpg",
@@ -104,7 +104,7 @@
   {
     "id": 6,
     "name": "SLEEVELESS TEE (Stone Wash)",
-    "price": 55000,
+    "price": 60000,
     "description": " Raw edge. Heavy drip. A stone-wash finish for hustlers who move different.",
     "image": "images/img26.jpg",
     "image1": "videoimg/wh6.jpg",
@@ -145,7 +145,7 @@
   {
     "id": 8,
     "name": "SKI MASK-BLACK",
-    "price": 25000,
+    "price": 30000,
     "description": "Lowkey grind, loud message. Built for hustlers who move in silence but shine in results.",
 
     "image": "images/img3.jpg",
@@ -167,11 +167,12 @@
   {
     "id": 9,
     "name": "TRACKSUIT",
-    "price": 25000,
+    "price": 75000,
     "description": "Tracksuit (Unisex) Step out in confidence with this stylish royal blue tracksuit — the perfect blend of comfort and performance. Made from premium-quality fabric, this two-piece set features a full-zip jacket and matching joggers designed for all-day wear.",
 
-    "image": "images/trak2.png",
-    "image1": "images/trak3.png",
+    "image": "images/trak1.jpg",
+    "image2": "images/trak2.jpg",
+    "image3": "images/trak3.jpg",
     
     "color":{
         "color1": "GREEN",
